@@ -37,9 +37,12 @@ Then open the address it prints. Locally the app runs in demo mode.
 ## Build
 
 ```bash
-npm run build          # normal web build into dist/
-npm run build:single   # one self-contained HTML file into dist-single/, for publishing as an artifact
+npm run build            # normal web build into dist/
+npm run build:artifact   # the publishable page, written to artifact/prospect-crm.html
+npm run check:engine     # checks the automation engine still behaves
 ```
+
+Working on this with Claude Code? `CLAUDE.md` holds the project's rules and context, and Claude reads it at the start of every session.
 
 ## How it is put together
 

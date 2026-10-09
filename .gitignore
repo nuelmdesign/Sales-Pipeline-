@@ -25,3 +25,6 @@ dist-ssr
 
 # Single-file build output
 dist-single
+
+# Publishable artifact page
+artifact
